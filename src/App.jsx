@@ -4,7 +4,7 @@ import Footer from "./components/Footer";
 import Home from "./pages/Home";
 import SignIn from "./pages/SignIn";
 import User from "./pages/User";
-import Account from "./pages/Account";
+// import Account from "./pages/Account";
 import ErrorPage from "./pages/ErrorPage";
 import './styles/css/main.css'
 
@@ -28,10 +28,10 @@ const router = createBrowserRouter([
         path: 'user',
         element: <User/>
       },
-      {
-        path: 'account',
-        element: <Account/>
-      }
+      // {
+      //   path: 'account',
+      //   element: <Account/>
+      // }
     ]
   }
 ])
