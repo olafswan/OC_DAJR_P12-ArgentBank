@@ -13,12 +13,22 @@ body {
   min-height: 100vh;
 }
 
+#root {
+  display: flex !important;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
 .main {
   flex: 1;
 }
 
 .bg-dark {
   background-color: #12002b;
+}
+
+.bg-grey {
+  background-color: #dde2ea;
 }
 
 .sr-only {
@@ -207,12 +217,15 @@ body {
   justify-content: center;
   border-top: 2px solid #ccc;
   padding: 2rem 0 1.5rem;
+  margin-top: auto;
 }
 
 .footer-text {
   margin: 0;
   padding: 0;
 }
+
+/* -- USER PAGE --  */
 
 .account {
   display: flex;
@@ -227,6 +240,15 @@ body {
   box-sizing: border-box;
   text-align: left;
   margin-bottom: 2rem;
+}
+
+.account-history {
+  width: calc(100% + 4rem);
+  margin: -2rem;
+}
+
+.center {
+  text-align: center;
 }
 
 .account-amount {
@@ -251,6 +273,11 @@ body {
   flex: 1;
 }
 
+.account-content-wrapper-history {
+  justify-content: center;
+  align-items: end;
+}
+
 .edit-button {
   border-color: #00bc77;
   background-color: #00bc77;
@@ -268,12 +295,13 @@ body {
   display: block;
   width: 100%;
   padding: 8px;
-  font-size: 1.1rem;
-  font-weight: bold;
+  font-size: 1rem;
+  font-weight: normal;
   margin-top: 1rem;
-  border-color: #00bc77;
-  background-color: #00bc77;
+  border-color: #5256ec;
+  background-color: #5256ec;
   color: #fff;
+  border-radius: 0.25rem;
 }
 
 @media (min-width: 720px) {
@@ -336,4 +364,13 @@ body {
   .error-page a {
     margin-top: 2.5rem;
   }
+}
+
+/* -- USER PAGE --  */
+.dashboard {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
+  gap: 2rem;
 }
