@@ -12,7 +12,7 @@ export default function Header() {
       </NavLink>
 
         <div>
-            <NavLink class="main-nav-item" to="/sign-in.html">
+            <NavLink class="main-nav-item" to="/sign-in">
                 {/* TODO fix user icon not working */}
                 <i className="fa fa-user-circle"></i>
             Sign In
