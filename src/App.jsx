@@ -3,6 +3,8 @@ import Header from "./components/Header";
 import Footer from "./components/Footer";
 import Home from "./pages/Home";
 import SignIn from "./pages/SignIn";
+import User from "./pages/User";
+import Account from "./pages/Account";
 import ErrorPage from "./pages/ErrorPage";
 import './styles/css/main.css'
 
@@ -22,10 +24,14 @@ const router = createBrowserRouter([
         path: 'sign-in',
         element: <SignIn/>
       },
-      // {
-      //   path: 'user',
-      //   element: <User/>
-      // },
+      {
+        path: 'user',
+        element: <User/>
+      },
+      {
+        path: 'account',
+        element: <Account/>
+      }
     ]
   }
 ])
@@ -34,9 +40,7 @@ const router = createBrowserRouter([
 function Root () {
   return <>
     <Header/>
-    <main className="main-container">
-      <Outlet/>
-    </main>
+    <Outlet/>
     <Footer/>
   </>
 }
