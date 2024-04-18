@@ -184,6 +184,7 @@ Toutes ces informations en main, vous vous mettez au travail dès que possible !
 
 ### Cours :
 [Utilisez le state manager Redux pour gérer l’état de vos applications](https://openclassrooms.com/fr/courses/7150626-utilisez-le-state-manager-redux-pour-gerer-l-etat-de-vos-applications)
+
 [Gérez votre application React avec Redux et Redux Toolkit](https://openclassrooms.com/fr/courses/8228131-gerez-votre-application-react-avec-redux-et-redux-toolkit)
 
 ### Ressources :
