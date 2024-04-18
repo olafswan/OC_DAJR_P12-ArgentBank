@@ -2,6 +2,48 @@
 
 # Utilisez une API pour un compte utilisateur bancaire avec React
 
+### Qu’allez-vous apprendre dans ce projet ?
+ 
+Dans ce projet, vous travaillerez sur le développement front-end d’une application bancaire en utilisant **React et
+Redux** pour créer une expérience utilisateur dynamique et réactive.
+
+Votre mission principale sera d'intégrer le front-end avec le back-end via des **appels API**.
+
+Vous écrirez des appels à l'API REST pour connecter les deux parties de l'application, assurant une communication
+fluide entre le client et le serveur.
+
+Vous utiliserez React pour développer l'interface utilisateur de l'application bancaire, en vous concentrant sur la
+création d'un tableau de bord complet et responsive pour les utilisateurs. 
+
+Redux sera utilisé pour gérer les données de l'application. Cela vous permettra de maintenir un état global cohérent à
+travers l'application.
+
+Pour définir les points d'accès de l'API et modéliser les interactions avec les données des transactions, vous 
+utiliserez **Swagger**. Cet outil vous aidera à décrire les différentes routes et actions nécessaires pour l'API.
+
+Vous utiliserez Node.js pour exécuter le code JavaScript côté serveur. Cela vous donnera une expérience pratique de 
+la gestion d'une application full-stack.
+
+### En quoi ces compétences seront-elles importantes pour votre carrière ? 
+ 
+
+La maîtrise de React et Redux est cruciale pour tout développeur front-end moderne, en particulier pour ceux qui 
+travaillent sur des applications web complexes. 
+
+L'utilisation de Swagger pour documenter les API est également une compétence précieuse, car elle assure la clarté 
+et la maintenabilité de l'interface de programmation. 
+
+Ces compétences, combinées à une expérience en développement full-stack avec Node.js, vous rendront un développeur 
+web hautement compétent et polyvalent, capable de gérer à la fois le front-end et le back-end d'une application.
+
+### Objectifs pédagogiques
+* S'authentifier à une API
+* Implémenter un gestionnaire d'état dans une application React
+* Intéragir avec une API
+* Modéliser une API
+
+***
+
 ### Scénario :
 
 Vous venez de commencer à travailler chez Remede Agency, une agence spécialisée dans le développement d'applications 
@@ -134,10 +176,18 @@ Avery Moreau
 
 Toutes ces informations en main, vous vous mettez au travail dès que possible !
 
+***
+
+### Livrables :
+1. Un fichier au format TXT contenant le lien vers votre **code** sur GitHub remplissant toutes les exigences de la **phase 1** : Authentification de l'utilisateur.
+2. Un fichier **swagger** au format YML des modèles d'API proposés avec les endpoints requis pour la **phase 2** : Transactions.
+
 ### Cours :
 [Utilisez le state manager Redux pour gérer l’état de vos applications](https://openclassrooms.com/fr/courses/7150626-utilisez-le-state-manager-redux-pour-gerer-l-etat-de-vos-applications)
-
 [Gérez votre application React avec Redux et Redux Toolkit](https://openclassrooms.com/fr/courses/8228131-gerez-votre-application-react-avec-redux-et-redux-toolkit)
+
+### Ressources :
+[Organisez votre application avec la logique Redux](https://openclassrooms.com/fr/courses/5511091-organisez-votre-application-avec-la-logique-redux)
 
 ### Résultat final lors du passage de la soutenance :
 [Lien du site](www.google.com)
